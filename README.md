@@ -1,5 +1,5 @@
 # october-i18n-cs
-October CMS czech (CS) internationalization
+October CMS Czech (CS) internationalization
 
 ## Modules
 
