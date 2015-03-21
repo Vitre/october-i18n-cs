@@ -14,12 +14,12 @@ return array(
     */
 
     "accepted"         => "The :attribute must be accepted.",
-    "active_url"       => "The :attribute is not a valid URL.",
-    "after"            => "The :attribute must be a date after :date.",
-    "alpha"            => "The :attribute may only contain letters.",
+    "active_url"       => ":attribute není validní URL adresa.",
+    "after"            => ":attribute musí být datum po :date.",
+    "alpha"            => ":attribute musí obsahovat pouze písmena.",
     "alpha_dash"       => "The :attribute may only contain letters, numbers, and dashes.",
     "alpha_num"        => "The :attribute may only contain letters and numbers.",
-    "array"            => "The :attribute must be an array.",
+    "array"            => ":attribute musí být pole.",
     "before"           => "The :attribute must be a date before :date.",
     "between"          => array(
         "numeric" => "The :attribute must be between :min - :max.",
@@ -62,12 +62,12 @@ return array(
     "same"             => "The :attribute and :other must match.",
     "size"             => array(
         "numeric" => "The :attribute must be :size.",
-        "file"    => "The :attribute must be :size kilobytes.",
-        "string"  => "The :attribute must be :size characters.",
-        "array"   => "The :attribute must contain :size items.",
+        "file"    => ":attribute musí mít :size kilobajtů.",
+        "string"  => ":attribute musí být dlouhý :size znaků.",
+        "array"   => ":attribute musí obsahovat :size položek.",
     ),
-    "unique"           => "The :attribute has already been taken.",
-    "url"              => "The :attribute format is invalid.",
+    "unique"           => ":attribute je již obsazené.",
+    "url"              => ":attribute má neplatný formát.",
 
     /*
     |--------------------------------------------------------------------------

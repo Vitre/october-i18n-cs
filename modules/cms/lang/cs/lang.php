@@ -30,15 +30,15 @@ return [
         'customize_button' => 'Customize'
     ],
     'maintenance' => [
-        'settings_menu' => 'Maintenance mode',
+        'settings_menu' => 'Režim údržby',
         'settings_menu_description' => 'Configure the maintenance mode page and toggle the setting.',
-        'is_enabled' => 'Enable maintenance mode',
+        'is_enabled' => 'Aktivovat režim údržby',
         'is_enabled_comment' => 'When activated website visitors will see the page chosen below.'
     ],
     'page' => [
         'not_found' => [
             'label' => 'Stránka nenalezena',
-            'help' => 'The requested page cannot be found.'
+            'help' => 'Požadovaná stránka nebyla nalezena.'
         ],
         'custom_error' => [
             'label' => 'Chyba',
@@ -93,7 +93,7 @@ return [
         'search' => 'Hledat...'
     ],
     'editor' => [
-        'settings' => 'Nastvení',
+        'settings' => 'Nastavení',
         'title' => 'Název',
         'new_title' => 'Název nové stránky',
         'url' => 'URL',
@@ -108,7 +108,7 @@ return [
         'code' => 'Kód',
         'content' => 'Obsah',
         'hidden' => 'Skrytý',
-        'hidden_comment' => 'Hidden pages are accessible only by logged-in back-end users.',
+        'hidden_comment' => 'Skryté stránky jsou dostupné pouze přihlášeným uživatelům.',
         'enter_fullscreen' => 'Enter fullscreen mode',
         'exit_fullscreen' => 'Exit fullscreen mode'
     ],

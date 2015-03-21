@@ -31,7 +31,7 @@ return [
         'login_placeholder' => 'login',
         'password_placeholder' => 'heslo',
         'forgot_password' => 'Zapomenuté heslo?',
-        'enter_email' => 'Zadejte váš email',
+        'enter_email' => 'Zadejte váš e-mail',
         'enter_login' => 'Zadejte váš login',
         'email_placeholder' => 'email',
         'enter_new_password' => 'Zadejte nové heslo',
@@ -55,11 +55,11 @@ return [
         'widget_inspector_title' => 'Widget nastavení',
         'widget_inspector_description' => 'Configure the report widget',
         'widget_columns_label' => 'Šířka :columns',
-        'widget_columns_description' => 'The widget width, a number between 1 and 10.',
-        'widget_columns_error' => 'Please enter the widget width as a number between 1 and 10.',
+        'widget_columns_description' => 'Šířka widgetu, zadejte číslo mezi 1 a 10.',
+        'widget_columns_error' => 'Zadejte prosím šířku widgetu jako číslo mezi 1 a 10.',
         'columns' => '{1} sloupec|[2,Inf] sloupce',
         'widget_new_row_label' => 'Force new row',
-        'widget_new_row_description' => 'Put the widget in a new row.',
+        'widget_new_row_description' => 'Vložit nový widget do řádku.',
         'widget_title_label' => 'Název Widgetu',
         'widget_title_error' => 'Název Widgetu je povinný.',
         'status' => [
@@ -79,7 +79,7 @@ return [
         'first_name' => 'Křestní jméno',
         'last_name' => 'Příjmení',
         'full_name' => 'Celé jméno',
-        'email' => 'Email',
+        'email' => 'E-mail',
         'groups' => 'Skupiny',
         'groups_comment' => 'Specify which groups this person belongs to.',
         'avatar' => 'Avatar',
@@ -90,7 +90,7 @@ return [
         'superuser_comment' => 'Check this box to allow this person to access all areas.',
         'send_invite' => 'Zaslat pozvánku emailem',
         'send_invite_comment' => 'Use this checkbox to send an invitation to the user by email',
-        'delete_confirm' => 'Do you really want to delete this administrator?',
+        'delete_confirm' => 'Opravdu chcete smazat tohoto administrátora?',
         'return' => 'Návrat na seznam administrátorů',
         'allow' => 'Povolit',
         'inherit' => 'Zdědit',
@@ -266,7 +266,7 @@ return [
     'branding' => [
         'menu_label' => 'Přizpůsobit administraci',
         'menu_description' => 'Customize the administration area such as name, colors and logo.',
-        'brand' => 'Brand',
+        'brand' => 'Značka',
         'logo' => 'Logo',
         'logo_description' => 'Upload a custom logo to use in the back-end.',
         'app_name' => 'Jméno aplikace',
@@ -290,13 +290,13 @@ return [
     'access_log' => [
         'hint' => 'This log displays a list of successful sign in attempts by administrators. Records are kept for a total of :days days.',
         'menu_label' => 'Záznam přístupů',
-        'menu_description' => 'View a list of successful back-end user sign ins.',
+        'menu_description' => 'Zobrazit seznam úspěšných přístupů do administrace.',
         'created_at' => 'Datum a čas',
         'login' => 'Přihlásit',
         'ip_address' => 'IP adresa',
         'first_name' => 'Křestní jméno',
         'last_name' => 'Příjmení',
-        'email' => 'Email'
+        'email' => 'E-mail'
     ],
     'filter' => [
       'all' => 'vše'

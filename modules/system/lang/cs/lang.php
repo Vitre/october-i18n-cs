@@ -26,10 +26,10 @@ return [
         'sk' => 'Slovak (Slovakia)',
     ],
     'directory' => [
-        'create_fail' => 'Cannot create directory: :name'
+        'create_fail' => 'Nepovedlo se vytvořit adresář: :name'
     ],
     'file' => [
-        'create_fail' => 'Cannot create file: :name'
+        'create_fail' => 'Nepovedlo se vytvořit soubor: :name'
     ],
     'combiner' => [
         'not_found' => "The combiner file ':name' is not found."
@@ -55,33 +55,33 @@ return [
     'plugin' => [
         'unnamed' => 'Unnamed plugin',
         'name' => [
-            'label' => 'Plugin Name',
-            'help' => 'Name the plugin by its unique code. For example, RainLab.Blog'
+            'label' => 'Název pluginu',
+            'help' => 'Název pluginu musí mít unikátní kód. Například RainLab.Blog'
         ]
     ],
     'plugins' => [
-        'manage' => 'Manage plugins',
+        'manage' => 'Spravovat pluginy',
         'enable_or_disable' => 'Enable or disable',
         'enable_or_disable_title' => 'Enable or Disable Plugins',
-        'remove' => 'Remove',
-        'refresh' => 'Refresh',
-        'disabled_label' => 'Disabled',
+        'remove' => 'Odstranit',
+        'refresh' => 'Obnovit',
+        'disabled_label' => 'Neaktivní',
         'disabled_help' => 'Plugins that are disabled are ignored by the application.',
         'selected_amount' => 'Plugins selected: :amount',
-        'remove_confirm' => 'Are you sure?',
+        'remove_confirm' => 'Jste si jistí?',
         'remove_success' => 'Successfully removed those plugins from the system.',
-        'refresh_confirm' => 'Are you sure?',
+        'refresh_confirm' => 'Jste si jistí?',
         'refresh_success' => 'Successfully refreshed those plugins in the system.',
-        'disable_confirm' => 'Are you sure?',
+        'disable_confirm' => 'Jste si jistí?',
         'disable_success' => 'Successfully disabled those plugins.',
         'enable_success' => 'Successfully enabled those plugins.',
         'unknown_plugin' => 'Plugin has been removed from the file system.'
     ],
     'project' => [
-        'name' => 'Project',
-        'owner_label' => 'Owner',
-        'attach' => 'Attach Project',
-        'detach' => 'Detach Project',
+        'name' => 'Projekt',
+        'owner_label' => 'Vlastník',
+        'attach' => 'Připojit project',
+        'detach' => 'Odpojit project',
         'none' => 'None',
         'id' => [
             'label' => 'Project ID',
@@ -105,16 +105,16 @@ return [
         'menu_description' => 'Manage email configuration.',
         'general' => 'General',
         'method' => 'Mail Method',
-        'sender_name' => 'Sender Name',
-        'sender_email' => 'Sender Email',
+        'sender_name' => 'Jméno odesílatele',
+        'sender_email' => 'E-mail odesílatele',
         'php_mail' => 'PHP mail',
         'sendmail' => 'Sendmail',
         'smtp' => 'SMTP',
         'smtp_address' => 'SMTP Address',
         'smtp_authorization' => 'SMTP authorization required',
         'smtp_authorization_comment' => 'Use this checkbox if your SMTP server requires authorization.',
-        'smtp_username' => 'Username',
-        'smtp_password' => 'Password',
+        'smtp_username' => 'Uživatelské jméno',
+        'smtp_password' => 'Heslo',
         'smtp_port' => 'SMTP Port',
         'smtp_ssl' => 'SSL connection required',
         'sendmail' => 'Sendmail',
@@ -124,18 +124,18 @@ return [
         'mailgun_domain' => 'Mailgun Domain',
         'mailgun_domain_comment' => 'Please specify the Mailgun domain name.',
         'mailgun_secret' => 'Mailgun Secret',
-        'mailgun_secret_comment' => 'Enter your Mailgun API key.',
+        'mailgun_secret_comment' => 'Zadejte Mailgun API klíč.',
         'mandrill' => 'Mandrill',
         'mandrill_secret' => 'Mandrill Secret',
-        'mandrill_secret_comment' => 'Enter your Mandrill API key.'
+        'mandrill_secret_comment' => 'Zadejte Mandrill API klíč.'
     ],
     'mail_templates' => [
         'menu_label' => 'Mail templates',
         'menu_description' => 'Modify the mail templates that are sent to users and administrators, manage email layouts.',
         'new_template' => 'New Template',
         'new_layout' => 'New Layout',
-        'template' => 'Template',
-        'templates' => 'Templates',
+        'template' => 'Šablona',
+        'templates' => 'Šablony',
         'menu_layouts_label' => 'Mail Layouts',
         'layout' => 'Layout',
         'layouts' => 'Layouts',
