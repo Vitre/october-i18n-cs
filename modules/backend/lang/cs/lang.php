@@ -104,7 +104,7 @@ return [
             'code_comment' => 'Enter a unique code if you want to access it with the API.',
             'menu_label' => 'Skupiny',
             'list_title' => 'Apráva skupin',
-            'new' => 'New Administrator Group',
+            'new' => 'Nová skupina administrátorů',
             'delete_confirm' => 'Do you really want to delete this administrator group?',
             'return' => 'Návrat do seznamu skupin',
         ],
